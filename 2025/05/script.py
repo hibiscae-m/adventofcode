@@ -8,7 +8,7 @@ def loadFile(file_location:str):
 
 
 def partOne():
-    data = loadFile('data_short.txt')
+    data = loadFile('data.txt')
     range_ids, ingredient_ids = data.split('\n\n')[0].split('\n'), data.split('\n\n')[1].split('\n')
     fresh = []
 
